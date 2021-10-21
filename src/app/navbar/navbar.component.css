@@ -1,0 +1,17 @@
+.navbar .navbar-nav > a {
+  color: black;
+}
+
+.navbar .navbar-nav > a:hover,
+.navbar .navbar-nav > a:focus{
+  color: #1E4082;
+}
+
+.navbar .navbar-nav > .active {
+  color: #1E4082;
+}
+
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus{
+  color: #1E4082;
+}
