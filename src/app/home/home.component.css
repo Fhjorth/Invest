@@ -1,28 +1,20 @@
 .text {
-  margin-top: 25%;
+  margin-top: 30%;
+  text-align: left;
+  color: white;
 }
 
-.container {
-  margin-top: 4%;
-  margin-bottom: 4%;
+.container-fluid {
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-image: url("src/assets/Baggrund-Home-02.jpg");
-  width: 100%;
-}
-
-#parallax-image {
-  height: 250px;
-
-  margin-bottom: 50px;
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.backgroundimage {
-  text-align: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  z-index: +1;
-}
+
+
+

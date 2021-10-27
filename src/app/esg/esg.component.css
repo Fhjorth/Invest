@@ -1,7 +1,11 @@
 .container-fluid {
-  background-color: rgba(30, 64, 130, 0.8);
-  padding-top: 5%;
+  background-color: #253d79;
+  /*rgba(30, 64, 130, 0.8);*/
   padding-bottom: 5%;;
 }
 
-
+.headline {
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}

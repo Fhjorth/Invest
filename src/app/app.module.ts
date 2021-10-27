@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ContactService} from './contact.service';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import { ScrollSpyDirective } from './scroll-spy.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     HomeComponent,
     ESGComponent,
     AboutUsComponent,
-    ContactComponent
+    ContactComponent,
+    ScrollSpyDirective
   ],
   imports: [
     BrowserModule,
