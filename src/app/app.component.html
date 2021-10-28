@@ -1,8 +1,42 @@
+<nav class="navbar shadow navbar-light sticky-top  navbar-expand-lg bg-white " id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/image2vector.svg" width="150" height="60" alt="">
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
 
-<app-navbar></app-navbar>
-<app-home></app-home>
-<app-esg></app-esg>
-<app-about-us></app-about-us>
-<app-contact></app-contact>
+    <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item " >
+          <a class="nav-link " href="#">Home <span class="sr-only currentActive">(current)</span></a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="#esg">ESG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="scroll" data-target="#nabar">
+  <app-home id="home"></app-home>
+  <app-esg id="esg"></app-esg>
+  <app-about-us id="about"></app-about-us>
+  <app-contact id="contact"></app-contact>
+</div>
 <app-footer></app-footer>
 

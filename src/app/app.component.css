@@ -1,1 +1,67 @@
 
+.navbar .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus{
+  color: #1E4082;
+}
+
+.navbar .navbar-nav > li > .active {
+  color: #1E4082;
+}
+
+.navbar-nav > li > a{
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.navbar .navbar-nav > li > .active > a:hover,
+.navbar .navbar-nav > li > .active > a:focus{
+  color: #1E4082;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler:hover {
+  background: transparent !important;
+}
+
+.navbar-toggler .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
